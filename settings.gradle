@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name='TestTaskExecution'
+
+include ':submodule'
+project(':submodule').projectDir = new File('modules/submodule/')
